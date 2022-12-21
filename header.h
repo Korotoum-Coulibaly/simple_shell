@@ -92,5 +92,8 @@ void expand_alias(struct init_data *data);
 int buffer_add(char *buffer, char *str_to_add);
 char *get_alias(struct init_data *data, char *name);
 int str_compare(char *string1, char *string2, int number);
-
+void expand_variables(struct init_data *data);
+char *env_get_key(char *name, struct init_data *data);
+void long_to_string(long number, char *string, int base);
+void str_reverse(char *string);
 #endif /* _HEADER_H_ */

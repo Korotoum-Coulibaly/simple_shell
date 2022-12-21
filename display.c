@@ -24,13 +24,14 @@ void display(char *prompt, struct init_data *data)
 		{
 			expand_alias(data);
 			expand_variables(data);
-			tokenize(data);
+			/*tokenize(data);
 			if (data ->tokens[0])
 			{
 				error_code = execute(data);
 				if (error_code != 0)
 					_print_error(error_code, data);
 			}
+			*/
 			free_recurrent_data(data);
 		}
 
