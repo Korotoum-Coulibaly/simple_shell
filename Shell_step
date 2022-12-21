@@ -1,0 +1,11 @@
+1- Create the Authors and ReadMe files, configure your github repo.
+
+2-  Create the file main.c, which will contain the main function of linux.it is the starting point of your project.but be sure to recover the arguments(argc and agrv) to recover the name of the program .....
+
+3- Create the header.this is the file that will contain all the structures and functions called.nevertheless to respect the principle of betty which is 5 functions per file, we will have annex files for each group of functions.
+
+4-When the program is launched, which corresponds to the launch of the main function, some data are initialized, namely, the name of the program, the parameter entered set to Null as there is no command typed yet, the environment (The shell does not work in any type of environment, it is therefore necessary to create a prompt environment for its execution.
+ 
+This is my first commit.
+
+5-Initialize is okay, create a function to display promt(prompt is "$")
