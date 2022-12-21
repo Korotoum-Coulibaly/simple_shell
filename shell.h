@@ -1,5 +1,8 @@
 #ifndef SHELL_H
 #define SHELL_H
+/**
+ *look at branch shelldetail to have much information
+ */
 
 #include <stdio.h> /* for printf*/
 #include <unistd.h> /* for fork, execve*/

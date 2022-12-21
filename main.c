@@ -5,7 +5,7 @@
   * @argc: number of values received from the command line
   * @argv: values received from the command line
   * @env: number of values received from the command line
-  * Return: zero on succes.
+  * Return: zero on success.
   */
 
 int main(int argc, char *argv[], char *env[])
