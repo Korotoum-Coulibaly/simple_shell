@@ -66,5 +66,8 @@ struct init_data
 /**Initialize data function**/
 void initialize(struct init_data *data, int argc, char *argv[], char **env);
 
+int _printAC(char *string);
+int strlength(char *string);
+char *_strcpy(char *string);
 
 #endif /* _HEADER_H_ */
