@@ -82,4 +82,10 @@ int _getline(struct init_data *data);
 int check_logic_ops(char *array_commands[], int i, char array_operators[]);
 char *_strtok(char *line, char *delim);
 
+/* Memomry Management */
+void free_all_data(struct init_data *data);
+void free_recurrent_data(struct init_data *data);
+void free_array_of_pointers(char **directories);
+
+
 #endif /* _HEADER_H_ */
