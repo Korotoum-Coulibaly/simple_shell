@@ -23,6 +23,10 @@
  *For use Open function...
  */
 #include <fcntl.h>
+/**
+ *Constant or macro
+ */
+#include "macros.h"
 
 /**
   * struct info- struct for the program's data
@@ -69,5 +73,13 @@ void initialize(struct init_data *data, int argc, char *argv[], char **env);
 int _printAC(char *string);
 int strlength(char *string);
 char *_strcpy(char *string);
+
+
+/* Makes the infinite loop that shows the prompt*/
+void display(char *prompt, struct init_data *data);
+int _print(char *string);
+int _getline(struct init_data *data);
+int check_logic_ops(char *array_commands[], int i, char array_operators[]);
+char *_strtok(char *line, char *delim);
 
 #endif /* _HEADER_H_ */

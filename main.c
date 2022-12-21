@@ -25,7 +25,7 @@ int main (int argc, char *argv[], char *env[])
 	 *keyword in it, but at the beginning for an initialization
 	 *we simulate a black screen by putting prompt = "".
 	 */
-	/*char *prompt = "";*/
+	char *prompt = "";
 
 	/**
 	 *The initialization is long so we will create a file init.c
@@ -41,12 +41,11 @@ int main (int argc, char *argv[], char *env[])
 	{
 		/*call error.h*/
 		errno = 2;
-		/*prompt = "$";*/
+		prompt = "$";
 	}
 	
 	errno = 0;
-
-
-
+	display(prompt, data);
+	
 	return (0);
 }
