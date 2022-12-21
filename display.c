@@ -20,7 +20,7 @@ void display(char *prompt, struct init_data *data)
 			free_all_data(data);
 			exit(errno);
 		}
-		/*if (stringSize >= 1)
+		if (stringSize >= 1)
 		{
 			expand_alias(data);
 			expand_variables(data);
@@ -33,6 +33,6 @@ void display(char *prompt, struct init_data *data)
 			}
 			free_recurrent_data(data);
 		}
-		*/
+
 	}
 }
